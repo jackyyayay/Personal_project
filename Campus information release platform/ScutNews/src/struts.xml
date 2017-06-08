@@ -1,0 +1,120 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE struts PUBLIC "-//Apache Software Foundation//DTD Struts Configuration 2.1//EN" "http://struts.apache.org/dtds/struts-2.1.dtd">
+<struts>
+	<constant name="struts.devMode" value="true" />
+	<package name="ScutNews" extends="struts-default">
+		<!-- user action -->
+		<action name="login" class="login">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="register" class="register">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="userDelete" class="userDelete">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="userInfo" class="userInfo">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="userList" class="userList">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="userUpdate" class="userUpdate">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+
+		<!-- comment action -->
+		<action name="commentAdd" class="comment">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="commentDelete" class="commentDelete">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="commentInfo" class="commentInfo">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="commentList" class="commentList">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="commentUpdate" class="commentUpdate">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+
+		<!-- lecture action -->
+		<action name="lectureDelete" class="lectureDelete">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="lectureInfo" class="lectureInfo">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="lectureList" class="lectureList">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="lectureUpdate" class="lectureModify">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		<action name="lectureAdd" class="lectureRelease">
+			<result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+		</action>
+		
+		<!-- activity -->	
+        <action name="GetAllActivity" class="GetAllActivity">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="GetOneActivity" class="GetOneActivity">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="AddActivity" class="AddActivity">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="UpdateActivity" class="UpdateActivity">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="DeleteActivity" class="DeleteActivity">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        
+        <!-- Hot -->
+        <action name="HotAdd" class="HotAdd">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="HotDelete" class="HotDelete">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="HotInfo" class="HotInfo">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="HotList" class="HotList">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+        <action name="HotUpdate" class="HotUpdate">
+            <result name="false">/result.jsp</result>
+			<result name="success">/result.jsp</result>
+        </action>
+	</package>
+</struts>    
