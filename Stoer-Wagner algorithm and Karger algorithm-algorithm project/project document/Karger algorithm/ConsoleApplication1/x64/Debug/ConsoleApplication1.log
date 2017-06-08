@@ -1,0 +1,4 @@
+﻿  Karger.cpp
+c:\users\jacky\desktop\algorithm project submission\project document\karger algorithm\consoleapplication1\karger.cpp(31): warning C4267: 'return': conversion from 'size_t' to 'int', possible loss of data
+c:\users\jacky\desktop\algorithm project submission\project document\karger algorithm\consoleapplication1\karger.cpp(38): warning C4267: '=': conversion from 'size_t' to 'int', possible loss of data
+  ConsoleApplication1.vcxproj -> C:\Users\Jacky\Desktop\algorithm project submission\project document\Karger algorithm\x64\Debug\ConsoleApplication1.exe
